@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { TodoItem } from './interfaces/todo-item.interface';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'todo-list-angular';
+  title: string = 'Tuh.do app';
 }
